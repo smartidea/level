@@ -17,6 +17,9 @@
     "json"
   ],
   "main": "level.js",
+  "bundledDependencies": [
+    "level-packager", "leveldown", "opencollective-postinstall"
+  ],
   "dependencies": {
     "level-packager": "^4.0.0",
     "leveldown": "^4.0.0",
